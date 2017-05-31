@@ -1,0 +1,6 @@
+备份：
+mongodump.exe -h localhost -d database_name -o d:\mongodump
+
+
+还原：
+mongorestore.exe -h localhost -d database_name –directoryperdb d:\mongodump\database_name
