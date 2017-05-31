@@ -1,6 +1,6 @@
-±¸·Ý£º
+ï»¿å¤‡ä»½ï¼š
 mongodump.exe -h localhost -d database_name -o d:\mongodump
 
 
-»¹Ô­£º
-mongorestore.exe -h localhost -d database_name ¨Cdirectoryperdb d:\mongodump\database_name
+è¿˜åŽŸï¼š
+mongorestore.exe -h localhost -d database_name â€“directoryperdb d:\mongodump\database_name
